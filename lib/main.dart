@@ -6,7 +6,7 @@ import 'package:user_side/splashScreen/splash_screen.dart';
 import 'firebase_options.dart';
 import 'infoHandler/app_info.dart';
 // import 'package:users_app/infoHandler/app_info.dart';
-// import 'package:users_app/splashScreen/splash_screen.dart';
+// import 'package:/splashScreen/splash_screen.dart';
 
 void main() async
 {
