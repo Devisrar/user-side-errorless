@@ -54,18 +54,18 @@ class _MySplashScreenState extends State<MySplashScreen>
   {
     return Material(
       child: Container(
-        color: Colors.black,
+        color: Colors.deepOrange,
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
 
-              Image.asset("images/logo.png"),
+              Image.asset("images/amb.png"),
 
               const SizedBox(height: 10,),
 
               const Text(
-                "Uber & inDriver Clone App",
+                "ایمبولینس بلاو جان بچاؤ",
                 style: TextStyle(
                   fontSize: 24,
                   color: Colors.white,

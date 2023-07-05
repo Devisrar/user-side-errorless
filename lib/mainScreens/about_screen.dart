@@ -27,7 +27,7 @@ class _AboutScreenState extends State<AboutScreen>
             height: 230,
             child: Center(
               child: Image.asset(
-                "images/car_logo.png",
+                "images/amb.png",
                 width: 260,
               ),
             ),
@@ -38,7 +38,7 @@ class _AboutScreenState extends State<AboutScreen>
 
               //company name
               const Text(
-                "Uber & inDriver Clone",
+                "Emergency Ambulance App",
                 style: TextStyle(
                   fontSize: 28,
                   color: Colors.white54,
@@ -52,7 +52,7 @@ class _AboutScreenState extends State<AboutScreen>
 
               //about you & your company - write some info
               const Text(
-                "This app has been developed by Muhammad Ali, "
+                "This app has been developed by Muhammad Israr, "
                 "This is the world number 1 ride sharing app. Available for all. "
                 "20M+ people already use this app.",
                 textAlign: TextAlign.center,
@@ -67,7 +67,7 @@ class _AboutScreenState extends State<AboutScreen>
               ),
 
               const Text(
-                "This app has been developed by Muhammad Ali, "
+                "This app has been developed by Muhammad israr, "
                     "This is the world number 1 ride sharing app. Available for all. "
                     "20M+ people already use this app.",
                 textAlign: TextAlign.center,

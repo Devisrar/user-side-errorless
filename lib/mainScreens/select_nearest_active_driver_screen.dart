@@ -30,15 +30,15 @@ class _SelectNearestActiveDriversScreenState extends State<SelectNearestActiveDr
   {
     if(tripDirectionDetailsInfo != null)
     {
-      if(dList[index]["car_details"]["type"].toString() == "bike")
+      if(dList[index]["car_details"]["type"].toString() == "Large Ambulance")
       {
         fareAmount = (AssistantMethods.calculateFareAmountFromOriginToDestination(tripDirectionDetailsInfo!) / 2).toStringAsFixed(1);
       }
-      if(dList[index]["car_details"]["type"].toString() == "uber-x") //means executive type of car - more comfortable pro level
+      if(dList[index]["car_details"]["type"].toString() == "Average Ambulance") //means executive type of car - more comfortable pro level
       {
         fareAmount = (AssistantMethods.calculateFareAmountFromOriginToDestination(tripDirectionDetailsInfo!) * 2).toStringAsFixed(1);
       }
-      if(dList[index]["car_details"]["type"].toString() == "uber-go") // non - executive car - comfortable
+      if(dList[index]["car_details"]["type"].toString() == "small Ambulance") // non - executive car - comfortable
       {
         fareAmount = (AssistantMethods.calculateFareAmountFromOriginToDestination(tripDirectionDetailsInfo!)).toString();
       }
@@ -55,7 +55,7 @@ class _SelectNearestActiveDriversScreenState extends State<SelectNearestActiveDr
       appBar: AppBar(
         backgroundColor: Colors.white54,
         title: const Text(
-          "Nearest Online Drivers",
+          "Nearest Ambulance Drivers",
           style: TextStyle(
             fontSize: 18,
           ),
@@ -65,10 +65,9 @@ class _SelectNearestActiveDriversScreenState extends State<SelectNearestActiveDr
             Icons.close, color: Colors.white
           ),
           onPressed: ()
-          {
-            //delete/remove the ride request from database
+          {            //delete/remove the ride request from database
             widget.referenceRideRequest!.remove();
-            Fluttertoast.showToast(msg: "you have cancelled the ride request.");
+            Fluttertoast.showToast(msg: "you have cancelled the Ambulance request.");
 
             SystemNavigator.pop();
           },
