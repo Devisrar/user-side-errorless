@@ -50,22 +50,22 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDwhqft4_pkrfSwux7tfFT0RnFywgRINA4',
-    appId: '1:568452383345:android:bc7a60c7d72a6f54b451d0',
-    messagingSenderId: '568452383345',
-    projectId: 'driverapp-59896',
-    databaseURL: 'https://driverapp-59896-default-rtdb.firebaseio.com',
-    storageBucket: 'driverapp-59896.appspot.com',
+    apiKey: 'AIzaSyCxgb704juxjT2fLIQ03F76j6hWxcElR7g',
+    appId: '1:546096928466:android:5bfac90f7ac0892267ff0b',
+    messagingSenderId: '546096928466',
+    projectId: 'zilifesaver',
+    databaseURL: 'https://zilifesaver-default-rtdb.firebaseio.com',
+    storageBucket: 'zilifesaver.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBT2POkbh2d5txBaghAVkLUBm0cIlk_lVk',
-    appId: '1:568452383345:ios:dc123e3a971d7ba2b451d0',
-    messagingSenderId: '568452383345',
-    projectId: 'driverapp-59896',
-    databaseURL: 'https://driverapp-59896-default-rtdb.firebaseio.com',
-    storageBucket: 'driverapp-59896.appspot.com',
-    iosClientId: '568452383345-p18031laq03826723d0ae4rp58qli9vg.apps.googleusercontent.com',
+    apiKey: 'AIzaSyBAu_UaFSuK909C6hRtRRdZk3uIbANZrTU',
+    appId: '1:546096928466:ios:81a8fed7e19ad38c67ff0b',
+    messagingSenderId: '546096928466',
+    projectId: 'zilifesaver',
+    databaseURL: 'https://zilifesaver-default-rtdb.firebaseio.com',
+    storageBucket: 'zilifesaver.appspot.com',
+    iosClientId: '546096928466-shirsvsmc0hvirmaoq1af48bo2ciiqqf.apps.googleusercontent.com',
     iosBundleId: 'com.example.userSide',
   );
 }
