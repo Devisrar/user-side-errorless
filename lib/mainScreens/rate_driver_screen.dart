@@ -47,7 +47,7 @@ class _RateDriverScreenState extends State<RateDriverScreen>
               const SizedBox(height: 22.0,),
 
               const Text(
-                "Rate Trip Experience",
+                "Rate Ambulance Experience",
                 style: TextStyle(
                   fontSize: 22,
                   letterSpacing: 2,
@@ -144,7 +144,7 @@ class _RateDriverScreenState extends State<RateDriverScreen>
                         SystemNavigator.pop();
                       }
 
-                      Fluttertoast.showToast(msg: "Please Restart App Now");
+                      Fluttertoast.showToast(msg: "Please Restart your App ");
                     });
                   },
                   style: ElevatedButton.styleFrom(

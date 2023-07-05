@@ -70,7 +70,7 @@ class _PayFareAmountDialogState extends State<PayFareAmountDialog>
             const Padding(
               padding: EdgeInsets.all(8.0),
               child: Text(
-                "This is the total trip fare amount, Please Pay it to the driver.",
+                "This is the total Ambulance amount, Please Pay it to the driver.",
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.grey,
