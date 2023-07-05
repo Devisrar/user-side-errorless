@@ -26,11 +26,13 @@ class _SearchPlacesScreenState extends State<SearchPlacesScreen>
 
   void findPlaceAutoCompleteSearch(String inputText) async
   {
+    debugPrint('Find place called');
     if(inputText.length > 1) //2 or more than 2 input characters
     {
       String urlAutoCompleteSearch = "https://maps.googleapis.com/maps/api/place/autocomplete/json?input=$inputText&key=$mapKey&components=country:PK";
 
       var responseAutoCompleteSearch = await RequestAssistant.receiveRequest(urlAutoCompleteSearch);
+      debugPrint("!!!!!!!!!!!!!!!!!!!!!!"+responseAutoCompleteSearch.toString());
 
       if(responseAutoCompleteSearch == "Error Occurred, Failed. No Response.")
       {
